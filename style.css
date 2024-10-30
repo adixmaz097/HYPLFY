@@ -108,7 +108,7 @@ body{
     display:grid;
     grid-template-columns:auto auto auto;
     grid-template-rows:auto;  
-    background:linear-gradient(to right, rgba(0,0,0,1) 30%, rgba(148,187,233,0.1) 100%);
+    background:rgba(0,0,0,0.7);
 }
 .nav{
     background-color:transparent;
@@ -197,7 +197,7 @@ a#right-cont-s:hover{
     height:730px;
 }
 #slideshow{
-    background:linear-gradient(to right, rgba(0,0,0,1) 30%, rgba(148,187,233,0.1) 100%);
+    background:rgba(0,0,0,0.7);
     height:678px;
     padding:10vh;
     color:white;
@@ -360,7 +360,7 @@ span{
     border-top-right-radius:20px;
 }
 #footer-2-cont-2{
-    background-color:rgb(90, 100, 245);
+    background-color:rgb(24, 177, 248);
     padding:9vh;
     display:grid;
     grid-template-columns:auto auto auto auto;
@@ -412,7 +412,7 @@ span{
     grid-template-rows:auto auto;
 }
 #footer-3-cont-4{
-    background-color:rgb(90, 100, 245);
+    background-color:rgb(24, 177, 248);
     padding:5vh;
     display:grid;
     grid-row:3;
@@ -944,7 +944,7 @@ span{
     line-height:3vh;
 }
 #footer-2-cont-2{
-    background-color:rgb(90, 100, 245);
+    background-color:rgb(24, 177, 248);
     padding:3vh;
     display:grid;
     grid-template-columns:auto auto;
@@ -1030,7 +1030,7 @@ span{
     grid-template-rows:auto auto;
 }
 #footer-3-cont-4-mob{
-    background-color:rgb(90, 100, 245);
+    background-color:rgb(24, 177, 248);
     padding:2vh;
     display:grid;
     grid-template-columns:auto auto auto;
