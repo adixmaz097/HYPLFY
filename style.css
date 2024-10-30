@@ -690,7 +690,7 @@ a:hover{
         display:grid;
         grid-template-columns:auto auto auto;
         grid-template-rows:auto;    
-        background:linear-gradient(to right, rgba(0,0,0,1) 30%, rgba(148,187,233,0.1) 100%);
+        background:rgba(0,0,0,0.7);
     }
     .threelines{
         cursor:pointer;
@@ -719,7 +719,7 @@ a:hover{
      }
      #content-menu{
         display:none;
-        background-color:rgba(0,0,0,0.2);
+        background-color:rgb(30,30,30);
         backdrop-filter:blur(10px);
         position:absolute;
         width:100%;
@@ -759,16 +759,14 @@ a:hover{
          background:linear-gradient(to right, rgba(148,187,233,1) 0%, rgba(148,187,233,0.2) 100%);
          transition-duration:0.2s;
      }
-     #bottom-sign{
-        padding:20px 20px;
-        margin-top:60vh;
-        bottom:0px;
-        border-top:1px solid gray;
-     }
      a#right-cont-s{
-        padding:10px 20px;
+        padding:10px 30px;
+        margin:20px;
         text-decoration:none;
+        text-align:center;
         color:black;
+        border-radius:8px;
+        display:block;
         background-color:rgb(255, 101, 0);
     }
     a#right-cont-s:hover{
@@ -801,22 +799,26 @@ a:hover{
         background-size:cover;
         background-position:center;
         height:572px;
+        height:auto;
+        width:100%;
     }
     #slideshow{
-        background:linear-gradient(to right, rgba(0,0,0,1) 30%, rgba(148,187,233,0.1) 100%);
+        background:rgba(0,0,0,0.7);
         height:520px;
         padding:1vh;
+        height:auto;
+        width:100%;
         color:white;
         padding-top:5vh;
         text-align:center;
     }
     h1#head1{
         font-family:openSans;
-        font-size:6vh;
+        font-size:6.5vh;
         width:100%;
+        text-align:center;
         padding:2vh;
         margin:0px;
-        text-align:left;
     }
     p#write{
         padding:10px;
@@ -825,7 +827,7 @@ a:hover{
         font-family:mukta;
         width:100%;
         padding:2vh;
-        text-align:left;
+        text-align:center;
     }
     
     button{
@@ -943,14 +945,14 @@ span{
 }
 #footer-2-cont-2{
     background-color:rgb(90, 100, 245);
-    padding:1vh;
+    padding:3vh;
     display:grid;
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto;
 }
 #footer-2-cont-3{
     background-color:rgb(106, 214, 124);
-    padding:1vh;
+    padding:3vh;
     display:grid;
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto;
@@ -1022,14 +1024,14 @@ span{
 }
 #footer-3-cont-3-mob{
     background-color:rgb(106, 214, 124);
-    padding:1vh;
+    padding:2vh;
     display:grid;
     grid-template-columns:auto auto auto;
     grid-template-rows:auto auto;
 }
 #footer-3-cont-4-mob{
     background-color:rgb(90, 100, 245);
-    padding:1vh;
+    padding:2vh;
     display:grid;
     grid-template-columns:auto auto auto;
     grid-template-rows:auto auto;
