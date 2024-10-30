@@ -360,7 +360,7 @@ span{
     border-top-right-radius:20px;
 }
 #footer-2-cont-2{
-    background-color:rgb(24, 177, 248);
+    background-color:rgb(87, 202, 255);
     padding:9vh;
     display:grid;
     grid-template-columns:auto auto auto auto;
@@ -412,7 +412,7 @@ span{
     grid-template-rows:auto auto;
 }
 #footer-3-cont-4{
-    background-color:rgb(24, 177, 248);
+    background-color:rgb(87, 202, 255);
     padding:5vh;
     display:grid;
     grid-row:3;
@@ -851,7 +851,7 @@ a:hover{
         display:grid;
         grid-template-columns:auto;
         grid-template-rows:auto auto;
-        padding:0vh;
+        padding:3vh;
         margin-top:6vh;
     }
     #footer-cont{
@@ -865,7 +865,7 @@ a:hover{
         background-color:white;
         border-bottom-left-radius:0px;
         border-bottom-right-radius:0px;
-        margin:1vh;
+        padding:0px;
     }
     #footer-img-mob{
         display:grid;
@@ -873,7 +873,6 @@ a:hover{
         background-size:cover;
         background-position:center;
         transition-duration:0.3s;
-        margin:1vh;
         height:330px;
     }
     #footer-img:hover{
@@ -913,12 +912,12 @@ a:hover{
     display:grid;
     grid-template-columns:auto;
     grid-template-rows:auto;
-    padding:0vh;
+    padding:3vh;
     margin-top:10vh;
 }
 #footer-2-cont-1{
     background-color:white;
-    padding:1vh;
+    padding:10px;
     display:grid;
     grid-column:1 / span 1;
     border-top-left-radius:0px;
@@ -944,7 +943,7 @@ span{
     line-height:3vh;
 }
 #footer-2-cont-2{
-    background-color:rgb(24, 177, 248);
+    background-color:rgb(87, 202, 255);
     padding:3vh;
     display:grid;
     grid-template-columns:auto auto;
@@ -1002,12 +1001,12 @@ span{
     display:grid;
     grid-template-columns:auto;
     grid-template-rows:auto auto auto auto;
-    padding:0vh;
+    padding:3vh;
     margin-top:10vh;
 }
 #footer-3-cont-1-mob{
     background-color:white;
-    padding:1vh;
+    padding:10px;
     border-top-left-radius:0px;
     border-top-right-radius:0px;
 }
@@ -1030,7 +1029,7 @@ span{
     grid-template-rows:auto auto;
 }
 #footer-3-cont-4-mob{
-    background-color:rgb(24, 177, 248);
+    background-color:rgb(87, 202, 255);
     padding:2vh;
     display:grid;
     grid-template-columns:auto auto auto;
@@ -1078,14 +1077,14 @@ span{
 }
 /*-------------footer-4------------*/
 .footer-4{
-    padding:0vh; 
+    padding:3vh; 
     display:grid;
     grid-template-columns:auto;
     grid-template-rows:auto auto;
     margin-top:10vh;
 }
 .footer-4-content{
-    padding:1vh;
+    padding:10px;
     border-top-left-radius:0px;
     border-bottom-left-radius:0px;
 }
@@ -1108,14 +1107,14 @@ span{
     background-color:rgba(0,0,0,0.0);
 }
 #h-footer-4-cont{
-    padding:10px 10px;
-    font-size:7vh;
+    padding:10px 0px;
+    font-size:6vh;
     line-height:7.5vh;
     font-weight:bold;
     font-family:mukta;
 }
 #p-footer-4-cont-2{
-    padding:10px 10px;
+    padding:10px 0px;
     font-family:mukta;
     font-size:2.5vh;
     line-height:3vh;
